@@ -28,7 +28,7 @@
     color: white !important;
    
     height: 40px;
-    width: 40px;
+     
 }
 .Gallery_cards>div {
     width: 40%;
@@ -139,7 +139,13 @@
     margin-top: 20px;
     border-radius: 10px !important;
 }
-
+.Pageheading{
+  
+    padding: 15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+    
+}
 
 .passwordtext {
     background: url(/img/Lock.png);
