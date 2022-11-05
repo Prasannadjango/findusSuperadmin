@@ -218,12 +218,12 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Mark</td>
+                                    <td>Lina</td>
                           
                                     <td>12.3.22</td>
                                     <td class="d-flex justify-content-center ">
                                         <button class="Action_btn btn me-2" data-bs-toggle="modal"
-                                            data-bs-target="#RequestedModal">
+                                            data-bs-target="#Providermodal">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                 fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
                                                 <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
@@ -259,47 +259,269 @@
                           </nav>
 
                         <!-- Customer modal  -->
-                        <div class="modal fade" id="RequestedModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5 text-dark " id="exampleModalLabel">Profile Details
-                                        </h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div id="profile-container" class="mx-auto ">
-                                            <image id="logoImage" />
-                                        </div>
-                                        <div class="py-3">
-                                            <div class="pb-3">
-                                                <label class="text-dark fs-5">Name:</label>
-                                                <input type="text" class="form-control Usertext m-0">
-                                            </div>
-                                            <div class="pb-3">
-                                                <label class="text-dark fs-5">Mail-id:</label>
-                                                <input type="text" class="form-control Mailtext m-0">
-                                            </div>
-                                            <div class="pb-3">
-                                                <label class="text-dark fs-5">Location:</label>
-                                                <input type="text" class="form-control Locationtext m-0">
-                                            </div>
-                                            <div class="pb-3">
-                                                <label class="text-dark fs-5">Gender:</label>
-                                                <input type="text" class="form-control Genderselect m-0">
-                                            </div>
-                                            <div class="pb-3">
-                                                <label class="text-dark fs-5">Age:</label>
-                                                <input type="text" class="form-control Agetext m-0">
-                                            </div>
-                                        </div>
-                                    </div>
-                                   
+                        <div class="modal fade" id="Providermodal" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Model Details</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
                                 </div>
+                                <div class="modal-body p-0">
+                                    <div class="swiper Profileswiper " style="height: 400px;">
+                                        <div class="swiper-wrapper h-100">
+                                            <div class="swiper-slide w-100 h-100">
+                                                <img src="/img/modelsample2.jpg" class="w-100 h-100" />
+                                            </div>
+                                            <div class="swiper-slide w-100 h-100">
+                                                <img src="/img/modelexample1.jpg" class="w-100 h-100" />
+                                            </div>
+                                            <div class="swiper-slide w-100 h-100">
+                                                <img src="/img/modelsample2.jpg" class="w-100 h-100" />
+                                            </div>
+                                            <div class="swiper-slide w-100 h-100">
+                                                <img src="/img/modelsample3.jpg" class="w-100 h-100" />
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-pagination" style="top: 90%; height: 10px;"></div>
+
+                                        <div class="d-flex justify-content-between">
+                                            <a href="Index.html" class="Homebtn">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                                                    fill="currentColor" class="bi bi-arrow-left-circle-fill"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                                                </svg>
+                                            </a>
+
+
+                                            <div class="Like_btn1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    fill="currentColor" class="bi bi-heart-fill"
+                                                    viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="position-relative">
+                                        <div class="Profileinfo_container text-dark">
+                                            <div class="Profile_topsection d-flex">
+                                                <div class="col-4 d-flex flex-column">
+                                                    <div class="Profileimage">
+                                                        <img src="/img/modelsample2.jpg" class="w-100 h-100" />
+                                                    </div>
+                                                    <div class="d-flex onlinesection align-items-center ps-2 pt-2">
+                                                        <div>
+
+                                                        </div>
+                                                        <p class="m-0 ps-1">
+                                                            online
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-8">
+                                                    <h3 class="fw-bold"> Jonne Angeline</h3>
+                                                    <h6 class="text-secondary pb-3">Age:22</h6>
+                                                    <span class="cat_badge ">
+                                                        Individual
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <p class="py-3">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                                eu accumsan turpis, quis condimentum
+                                                neque. Suspendisse eget lectus eget erat pretium finibus
+                                                porttitor sit amet velit. Proin sit amet massa
+                                                vel ipsum rhoncus interdum. Vestibulum ante ipsum primis in
+                                                faucibus orci luctus et ultrices posuere
+                                                cubilia curae;
+                                            </p>
+
+                                            <div class="PersonalDetails_container">
+                                                <div class="Profile_headings">
+                                                    <h5 class="fw-bold">Personal Details</h5>
+                                                </div>
+                                                <ul class="py-2">
+                                                    <li>
+                                                        <div class="d-flex Profile_Details">
+                                                            <div>
+                                                                <img src="/img/Gender Equality.png"
+                                                                    class="w-100 h-100" />
+                                                            </div>
+                                                            <div class="d-flex align-items-center ps-2">
+                                                                <h6 class="fw-bold m-0">Gender:</h6>
+                                                                <p class="m-0 ps-1">female</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex Profile_Details">
+                                                            <div>
+                                                                <img src="/img/Place Marker.png"
+                                                                    class="w-100 h-100" />
+                                                            </div>
+                                                            <div class="d-flex align-items-center ps-2">
+                                                                <h6 class="fw-bold m-0">Location:</h6>
+                                                                <p class="m-0 ps-1">Sydney</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex Profile_Details">
+                                                            <div>
+                                                                <img src="/img/Resize Vertical.png"
+                                                                    class="w-100 h-100" />
+                                                            </div>
+                                                            <div class="d-flex align-items-center ps-2">
+                                                                <h6 class="fw-bold m-0">Height:</h6>
+                                                                <p class="m-0 ps-1">5.7</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex Profile_Details">
+                                                            <div>
+                                                                <img src="/img/Female Back.png"
+                                                                    class="w-100 h-100" />
+                                                            </div>
+                                                            <div class="d-flex align-items-center ps-2">
+                                                                <h6 class="fw-bold m-0">Body type:</h6>
+                                                                <p class="m-0 ps-1">Medium</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex Profile_Details">
+                                                            <div>
+                                                                <img src="/img/Female User.png"
+                                                                    class="w-100 h-100" />
+                                                            </div>
+                                                            <div class="d-flex align-items-center ps-2">
+                                                                <h6 class="fw-bold m-0">Ethnicity:</h6>
+                                                                <p class="m-0 ps-1">Blonde</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex Profile_Details">
+                                                            <div>
+                                                                <img src="/img/Sleepy Eyes.png"
+                                                                    class="w-100 h-100" />
+                                                            </div>
+                                                            <div class="d-flex align-items-center ps-2">
+                                                                <h6 class="fw-bold m-0">Eye-color:</h6>
+                                                                <p class="m-0 ps-1">Brown</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="Weekavail_container">
+                                                <div class="Profile_headings">
+                                                    <h5 class="fw-bold">Week Availability</h5>
+                                                </div>
+                                                <div class="d-flex flex-wrap py-3 justify-content-center">
+                                                    <span>Sunday</span>
+                                                    <span>Monday</span>
+                                                    <span>Tuesday</span>
+                                                    <span>Wednesday</span>
+                                                    <span>Thrusday</span>
+                                                    <span>Friday</span>
+                                                    <span>Saturday</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="incall_container">
+                                                <div class="Profile_headings">
+                                                    <h5 class="fw-bold">Incall Price</h5>
+                                                </div>
+                                                <div class="d-flex flex-wrap py-3 ">
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                            height="16" fill="currentColor" class="bi bi-heart-fill"
+                                                            viewBox="0 0 16 16">
+                                                            <path fill-rule="evenodd"
+                                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                                        </svg>
+                                                        1hr=$100
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                            height="16" fill="currentColor" class="bi bi-heart-fill"
+                                                            viewBox="0 0 16 16">
+                                                            <path fill-rule="evenodd"
+                                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                                        </svg>
+                                                        2hr=$200
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                            height="16" fill="currentColor" class="bi bi-heart-fill"
+                                                            viewBox="0 0 16 16">
+                                                            <path fill-rule="evenodd"
+                                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                                        </svg>
+                                                        6hr=$500
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                            height="16" fill="currentColor" class="bi bi-heart-fill"
+                                                            viewBox="0 0 16 16">
+                                                            <path fill-rule="evenodd"
+                                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                                        </svg>
+                                                        4hr=$300
+                                                    </span>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="PersonalDetails_container">
+                                                <div class="Profile_headings">
+                                                    <h5 class="fw-bold">Contact Details</h5>
+                                                </div>
+                                                <ul class="py-2">
+                                                    <li>
+                                                        <div class="d-flex Profile_Details">
+                                                            <div>
+                                                                <img src="/img/Mail.png" class="w-100 h-100" />
+                                                            </div>
+                                                            <div class="d-flex align-items-center ps-2">
+                                                                <h6 class="fw-bold m-0">Mail:</h6>
+                                                                <p class="m-0 ps-1">jonne@gmail.com</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex Profile_Details">
+                                                            <div>
+                                                                <img src="/img/Phone.png" class="w-100 h-100" />
+                                                            </div>
+                                                            <div class="d-flex align-items-center ps-2">
+                                                                <h6 class="fw-bold m-0">Mobile number:</h6>
+                                                                <p class="m-0 ps-1">932123121</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+
+                                                </ul>
+                                            </div>
+                                         
+                                        </div>
+                                    </div>
+                                
+                                </div>
+
                             </div>
                         </div>
+                    </div>
 
                       
 
