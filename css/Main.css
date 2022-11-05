@@ -519,7 +519,15 @@ input[type="checkbox"]:checked+label {
     background-size: cover;
     
 }
-
+.Messagebody{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    border-left: 3px solid #F6D236;
+}
+.Messagebody>div>p{
+    color: #6d6d6d;
+    font-size: 1.1rem;
+}
 /* Responsive codes */
 
 @media (min-width:320px) and (max-width:425px) {
