@@ -30,8 +30,20 @@
     height: 40px;
     width: 40px;
 }
-.Actionbtns_container{
-    
+.Gallery_cards>div {
+    width: 40%;
+    height: 200px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.Gallery_cards>div >img{
+    border-radius: inherit;
+}
+.Gallery_cards {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 .topbar{
     background-color: #F6D236;
