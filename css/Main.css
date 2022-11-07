@@ -578,4 +578,7 @@ input[type="checkbox"]:checked+label {
         top: -32px;
         right: -28px;
     }
+    .table thead th{
+        vertical-align: middle !important;
+    }
 }
