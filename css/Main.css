@@ -560,3 +560,22 @@ input[type="checkbox"]:checked+label {
 
     
 }
+
+
+
+/* Responsive styles */
+
+
+@media (min-width:320px) and (max-width:425px){
+    .Profiletable_container{
+        overflow-x: scroll;
+    }
+    .Messagebody{
+        position: relative;
+    }
+    .Messagebody>span{
+        position: absolute;
+        top: -32px;
+        right: -28px;
+    }
+}
