@@ -33717,4 +33717,7 @@ div.tagsinput span.tag a {
   .Input-container .col:first-child .form-control{
     margin-bottom: 15px;
   }
+  .table-responsive{
+  overflow-x: scroll;
+  }
 }
