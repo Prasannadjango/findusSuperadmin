@@ -33714,7 +33714,9 @@ div.tagsinput span.tag a {
     height: 26px;
 }
 
-
+.Filters-section{
+  justify-content: end;
+}
 
 /* Responsive code */
 
@@ -33727,5 +33729,18 @@ div.tagsinput span.tag a {
   }
   .table-responsive{
   overflow-x: scroll;
+  }
+  .Plans-searchcontainer{
+    flex-direction: column;
+  }
+  .Plans-searchcontainer div:nth-child(1){
+    margin-bottom: 20px;
+  }
+  .Heading-section{
+    flex-direction: column;
+  }
+  .Filters-section{
+    justify-content: inherit;
+    overflow-x: scroll;
   }
 }
