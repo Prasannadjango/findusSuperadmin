@@ -33212,13 +33212,18 @@ div.tagsinput span.tag a {
 .sidebar .nav .menu-items:nth-child(5n + 5) .nav-link .menu-icon i {
   color: #fc424a;
 }
-
+.sidebar-logo{
+  display: none;
+}
 /* style for off-canvas menu*/
 @media screen and (max-width: 991px) {
+  .sidebar-logo{
+    display:block;
+  }
   .sidebar-offcanvas {
     position: fixed;
     max-height: calc(100vh - 70px);
-    top: 70px;
+    top: 85px;
     bottom: 0;
     overflow: auto;
     right: -244px;
@@ -33708,6 +33713,9 @@ div.tagsinput span.tag a {
     width: 26px;
     height: 26px;
 }
+
+
+
 /* Responsive code */
 
 @media (min-width:320px) and (max-width:425px){
